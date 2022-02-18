@@ -1,6 +1,5 @@
----
-
 **首先需要感谢** [Achuan](https://github.com/Achuan-2/siyuan-themes-tsundoku-light)**和**[Cliff](https://github.com/Crowds21)
+--- 
 
 ## 这个主题整体是倾向于，美观！清新
 
