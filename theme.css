@@ -1930,11 +1930,11 @@ rotyle-wysiwyg [data-node-id][custom-f="20"]  div[contenteditable="true"]:after 
 
 /* 文档图标标题上方大小调整win10 emoji */
 .protyle-background__icon {
-    height: 80px;
-    width: 80px;
+    height: 40px;
+    width: 40px;
     transition: var(--b3-transition);
     position: absolute;
-    bottom: -40px;
+    bottom: 50px;
     cursor: pointer;
     font-size: 70px;
     line-height: 70px;
