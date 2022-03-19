@@ -1526,9 +1526,20 @@ div[data-subtype='t'][data-type='NodeList'] {
 }
 
 /* 文档标题添加下划线 */
-/* .protyle-title__input {
-    border-bottom: 2px solid #011010ad;
-} */
+.protyle-title__input {
+    border-bottom: 2px solid #031a1aad;
+    height: 70px;
+    /* width: 1220px; */
+    transition: var(--b3-transition);
+    /* position: absolute; */
+    bottom: -40px;
+    cursor: pointer;
+    font-size:35px;
+    /* line-height: 200px; */
+    text-align: center;
+    font-family: var(--b3-font-family-emoji);
+    z-index: 1;
+}
 
 /* 更改空行提示 */
 .protyle-wysiwyg [data-node-id]:not(.code-block)>[spellcheck="false"]:focus:empty:after {
@@ -1926,22 +1937,23 @@ rotyle-wysiwyg [data-node-id][custom-f="20"]  div[contenteditable="true"]:after 
 .b3-list--files .b3-list-item__icon:hover::after,
 .b3-list--files .b3-list-item__icon:hover::before{
     opacity: 0;
-}
+}   
 
 /* 文档图标标题上方大小调整win10 emoji */
 .protyle-background__icon {
-    height: 40px;
-    width: 40px;
+    height: 80px;
+    width: 60px;
     transition: var(--b3-transition);
     position: absolute;
-    bottom: 50px;
+    bottom: -40px;
     cursor: pointer;
-    font-size: 70px;
-    line-height: 70px;
+    font-size: 30px;
+    line-height: 30px;
     text-align: center;
     font-family: var(--b3-font-family-emoji);
     z-index: 1;
 }
+
 /* 文档图标文件树大小调整 */
 .b3-list--files .b3-list-item__icon svg, .b3-list--files .b3-list-item__icon img {
     float: left;
