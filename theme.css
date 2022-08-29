@@ -991,9 +991,9 @@ div[data-subtype='t'][data-type='NodeList'] {
 
 .protyle-reset .hljs,
 .protyle-wysiwyg .hljs ,.b3-typography .hljs{
-    padding-top: 4px !important;
-    padding-bottom: 4px !important;
-    padding-left: 16px;
+    padding-top: 1px !important;
+    padding-bottom: 40px !important;
+    padding-left: 18px;
     font-family: var(--b3-font-family-code);
     background-size: 20px 20px;
     background-image: none !important;
